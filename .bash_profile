@@ -1,7 +1,7 @@
 # Load ~/.extra, ~/.bash_prompt, ~/.exports, ~/.aliases and ~/.functions
 # ~/.path can be used to set PATH before anything else happens
 # ~/.extra can be used for settings you don’t want to commit
-for file in ~/.{path,extra,bash_prompt,exports,aliases,functions}; do
+for file in ~/.{path,extra,bash_prompt,exports,aliases,functions,python}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
