@@ -1,8 +1,8 @@
 # Make vim the default editor
 # export EDITOR="vim"
 
-# Make sublime the default editor
-export EDITOR=subl
+# Make Visual Studio Code the default editor
+export EDITOR="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
 
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
@@ -19,6 +19,9 @@ export HISTTIMEFORMAT
 
 # GDAL block cache
 export GDAL_CACHEMAX=800
+
+#Homebrew
+export HOMEBREW_PREFIX=/usr/local
 
 # Make some commands not show up in history
 # export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
