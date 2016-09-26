@@ -15,5 +15,15 @@ syspip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
 
+syspip3(){
+   PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
+}
+
 # Enable virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper.sh 
+
+# Convenience function to create python3 virtualenv
+
+mkvirtualenv3(){
+  mkvirtualenv -p `which python3` "$@"
+}
