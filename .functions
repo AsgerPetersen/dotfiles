@@ -166,14 +166,3 @@ function code () {
         open -n -a "Visual Studio Code" --args "$F"
     fi
 }
-
-# Start QGIS application with the right path
-#function qgis (){
-#	ORIG_PATH=$PATH
-#	PATH=/usr/bin:$PATH
-#	echo Opening QGIS using function which alters the path
-#	export PATH
-#	open -n -a QGIS
-#	PATH=$ORIG_PATH
-#	export PATH
-#}
