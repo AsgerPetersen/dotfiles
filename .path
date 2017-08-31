@@ -3,6 +3,8 @@ SYSPATH=$PATH
 
 PATH=/usr/local/opt/coreutils/libexec/gnubin
 PATH=/usr/local/bin:$PATH
+# Add /usr/local/opt/python/libexec/bin to have homebrew 'python' in path. Otherwise only 'python2' is available
+PATH=/usr/local/opt/python/libexec/bin:$PATH
 PATH=$PATH:$SYSPATH
 
 export PATH
