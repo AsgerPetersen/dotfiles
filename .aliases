@@ -9,7 +9,7 @@ alias -- -="cd -"
 
 # programs
 alias qgis2brew="/usr/local/opt/qgis2/bin/qgis2"
-alias qgis3brew=/usr/local/opt/qgis3-dev/bin/qgis3-dev
+alias qgis3brew=PYTHONPATH=/Users/asger/Virtualenvs/qgis3/lib/python3.6/site-packages /usr/local/opt/qgis3-dev/bin/qgis3-dev
 
 # be nice
 alias please=sudo
