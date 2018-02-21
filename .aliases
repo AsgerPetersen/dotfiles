@@ -11,6 +11,8 @@ alias -- -="cd -"
 alias qgis2brew="/usr/local/opt/qgis2/bin/qgis2"
 alias qgis3brew="PYTHONPATH=/Users/asger/Virtualenvs/qgis3/lib/python3.6/site-packages /usr/local/opt/qgis3-dev/bin/qgis3-dev"
 
+alias dockergdal='docker run --rm -it -v $(pwd):/data geodata/gdal "$@"'
+
 # be nice
 alias please=sudo
 alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
