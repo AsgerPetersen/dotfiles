@@ -35,6 +35,11 @@ brew install tree
 # Python
 brew install python
 brew install python3
+brew install pipenv
+
+# fish shell
+brew install fish
+
 
 # Remove outdated versions from the cellar
 brew cleanup
