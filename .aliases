@@ -11,7 +11,7 @@ alias -- -="cd -"
 alias qgis2brew="/usr/local/opt/qgis2/bin/qgis2"
 alias qgis3brew="PYTHONPATH=/Users/asger/Virtualenvs/qgis3/lib/python3.6/site-packages /usr/local/bin/qgis3"
 
-alias dockergdal='docker run --rm -it -v $(pwd):/data geodata/gdal "$@"'
+alias dockergdal='echo "Remember to docker pull osgeo/gdal:ubuntu-full-latest from time to time"; docker run --rm -it -w '/home' -v $(pwd):/home osgeo/gdal:ubuntu-full-latest "$@"'
 
 # be nice
 alias please=sudo
