@@ -8,4 +8,4 @@
 # fi
 
 # Drop into fish if no params are given
-if [ -z "$BASH_EXECUTION_STRING" ]; then exec fish; fi
+# if [ -z "$BASH_EXECUTION_STRING" ]; then exec fish; fi
